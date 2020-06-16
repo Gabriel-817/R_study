@@ -1,0 +1,9 @@
+KoNLP 설치
+각 개인 컴퓨터 R패키지 경로에 KoNLP.zip 압축을 푼다.
+예) C:\Users\admin\Documents\R\win-library\3.6
+압축 풀 때는 파일명을 폴더명으로.
+R KoNLP 실행 전 설치해야 할 패키지
+install.packages("DBI")
+install.packages("bit64")
+install.packages("blob")
+library(KoNLP)
